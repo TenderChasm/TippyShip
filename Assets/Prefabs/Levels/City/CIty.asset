@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 927a3ebd2b0a46d499f364129484fede, type: 3}
+  m_Name: CIty
+  m_EditorClassIdentifier: 
+  ID: 1
+  BackgroundColor: {r: 0.53333336, g: 0.8392157, b: 1, a: 0}
+  LowerBackground: {fileID: -6520809391138240311, guid: 76b118f40755ccc45a34e0d9e6dd9dc6, type: 3}
+  UpperBackground: {fileID: 4238522700400924917, guid: 3939c8303ff214e408b45f80f261e191, type: 3}
+  Soil: {fileID: 3989256215427251760, guid: 1892293858f7024489320b8e93ae3beb, type: 3}
+  Wall: {fileID: 2233529738428399433, guid: 78482af2cb760fa478b98c949f60014b, type: 3}
+  LevelSpeed: 2.4
+  BackGroundSpeed: 0.1
+  DistanceBetweenWalls: 3
+  MaxVerticalDistanceBetweenGaps: 3
+  GapSize: 1.8
